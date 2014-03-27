@@ -16,13 +16,12 @@ module Func
 	end
 
 	def hanoi(numero_discos, t_origen, t_destino, t_alterna)
-		t_origen = numero_discos;
 		if (numero_discos==1) then 
-			print "PASAR DISCO ",t_origen, " A ", t_destino, "\n"
+			print "Cambia de ",t_origen, " a ", t_destino, "\n"
 		else 
-			hanoi(numero_discos-1, t_origen, t_destino, t_alterna)
-			print "PASAR DISCO ",t_origen, " A ", t_destino, "\n"
-			hanoi(numero_discos-1, t_alterna, t_destino, t_origen)
+			hanoi(numero_discos-1, t_origen, t_alterna, t_destino )
+			print "Cambia de ",t_origen, " a ", t_destino, "\n"
+			hanoi(numero_discos-1, t_alterna, t_destino, t_origen )
 		end
 		nil
 	end
@@ -84,7 +83,7 @@ class Test
 		p cuenta_palabras "A man, a plan, a canal – Panama"
 		print "\n"
 		print "hanoi: A man, a plan, a canal – Panama\n"
-		#hanoi (4 1 1 1)
+		hanoi 3, "Origen" , "Destino", "Alterna"
 		print "\n"
 		print "sort [85,5,3,212,3,1,5,5,9,10,4] asc\n"
 		p sort [85,5,3,212,3,1,5,5,9,10,4], true
