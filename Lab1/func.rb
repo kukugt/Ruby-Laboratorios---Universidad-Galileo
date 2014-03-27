@@ -16,6 +16,14 @@ module Func
 	end
 
 	def hanoi(numero_discos, t_origen, t_destino, t_alterna)
+		t_origen = numero_discos;
+		if (numero_discos==1) then 
+			print "PASAR DISCO ",t_origen, " A ", t_destino, "\n"
+		else 
+			hanoi(numero_discos-1, t_origen, t_destino, t_alterna)
+			print "PASAR DISCO ",t_origen, " A ", t_destino, "\n"
+			hanoi(numero_discos-1, t_alterna, t_destino, t_origen)
+		end
 		nil
 	end
 
