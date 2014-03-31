@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre_equipo: MyString
+  nombre_entrenador: MyString
+  img_bandera: MyString
+  img_uniforme: MyString
+  descripcion: MyString
+
+two:
+  nombre_equipo: MyString
+  nombre_entrenador: MyString
+  img_bandera: MyString
+  img_uniforme: MyString
+  descripcion: MyString
