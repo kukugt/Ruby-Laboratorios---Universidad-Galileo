@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fecha: 2014-03-28
+  phase_id: 
+  state: 
+  team_id: 
+  team_id: 
+  score_id: 
+  group_id: 
+  stadium_id: 
+
+two:
+  fecha: 2014-03-28
+  phase_id: 
+  state: 
+  team_id: 
+  team_id: 
+  score_id: 
+  group_id: 
+  stadium_id: 

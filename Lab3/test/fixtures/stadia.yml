@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  ciudad: MyString
+  fecha_contruccion: 2014-03-28
+  capacidad_maxima: 1
+  foto: MyString
+
+two:
+  nombre: MyString
+  ciudad: MyString
+  fecha_contruccion: 2014-03-28
+  capacidad_maxima: 1
+  foto: MyString
